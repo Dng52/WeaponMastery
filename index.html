@@ -107,6 +107,9 @@
                 <option value="trident">Trident</option>
                 <option value="mace">Mace</option>
                 <option value="quarterstaff">Quarterstaff</option>
+                <option value="greatsword">Greatsword</option>
+                <option value="greatclub">Greatclub</option>
+                <option value="handaxe">Handaxe</option>
             </select>
             <div id="weapon-category" class="weapon-category"></div>
         </div>
@@ -258,6 +261,27 @@
             "Melee d8, Versatile d10, Double Ended d8",
             "You gain +1 AC while wielding this weapon and you may use the Double Ended property when you make an Opportunity Attack.",
             "Bludgeons"
+        ),
+            greatsword: new Weapon(
+            "Greatsword",
+            "Two Handed, Melee 2d6, Heavy",
+            "Two Handed, Melee 2d8, Heavy",
+            "You deal 2d10 damage to Large and larger enemies.",
+            "Combat Blades"
+        ),
+            greatclub: new Weapon(
+            "Greatclub",
+            "Two Handed, Melee d8, Disarm, Heavy",
+            "Two Handed, Melee d10, Deflect, Disarm, Heavy",
+            "If you are successful in a disarm attempt, the enemy can no longer add proficiency to attack rolls and damage with that weapon for the rest of the combat.",
+            "Bludgeons"
+        ),
+            handaxe: new Weapon(
+            "Handaxe",
+            "Melee d6, Thrown (20/60), Light, Trip",
+            "Melee d6, Thrown (20/60), Disarm, Light, Trip",
+            "You gain advantage on attacks you are attempting to disarm.",
+            "Axes"
         )
     };
 
